@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Guamá Print - Bem-vindo</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(135deg, #0a0a1f, #1a1a3a);
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+
+    .success-container {
+      background: rgba(255,255,255,0.1);
+      backdrop-filter: blur(10px);
+      padding: 50px 40px;
+      border-radius: 20px;
+      box-shadow: 0 15px 40px rgba(0, 0, 0, 0.4);
+      max-width: 500px;
+      border: 1px solid rgba(255,255,255,0.2);
+    }
+
+    .logo {
+      font-size: 48px;
+      margin-bottom: 20px;
+    }
+
+    h1 {
+      font-size: 32px;
+      margin-bottom: 15px;
+      color: #4ade80;
+    }
+
+    p {
+      font-size: 18px;
+      opacity: 0.9;
+      line-height: 1.6;
+    }
+
+    .btn {
+      margin-top: 30px;
+      padding: 12px 30px;
+      background: #4ade80;
+      color: #0a0a1f;
+      border: none;
+      border-radius: 8px;
+      font-size: 16px;
+      font-weight: 600;
+      cursor: pointer;
+    }
+
+    .btn:hover {
+      background: #22c55e;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="success-container">
+    <div class="logo">✅</div>
+    <h1>Login realizado com sucesso!</h1>
+    <p>Bem-vindo ao sistema da Guamá Print.</p>
+    <button class="btn" onclick="window.location.href='index.html'">Voltar para Login</button>
+  </div>
+
+</body>
+</html>

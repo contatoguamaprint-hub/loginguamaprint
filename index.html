@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8" />
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  />
+
+  <title>Guamá Print - Login</title>
+
+  <!-- CSS EXTERNO -->
+  <link rel="stylesheet" href="./css/style.css" />
+</head>
+
+<body>
+
+  <div class="login-container">
+
+    <!-- LOGO -->
+    <div class="logo-circle">
+
+      <!--
+        TROQUE O CAMINHO DA IMAGEM ABAIXO
+        PELO CAMINHO DA SUA LOGO
+      -->
+
+      <img
+        src="./assets/images/logo.png"
+        alt="Logo Guamá Print"
+        class="logo-img"
+      />
+
+    </div>
+
+    <!-- TEXTO -->
+    <div class="company-name">
+      Guamá Print
+    </div>
+
+    <p class="subtitle">
+      Gráfica • Malharia • Comunicação Visual
+    </p>
+
+    <h1>
+      Faça seu login
+    </h1>
+
+    <!-- FORM -->
+    <form id="loginForm">
+
+      <div class="input-group">
+
+        <label for="usuario">
+          Usuário
+        </label>
+
+        <input
+          type="text"
+          id="usuario"
+          placeholder="Digite seu usuário"
+          autocomplete="username"
+          required
+        />
+
+      </div>
+
+      <div class="input-group">
+
+        <label for="senha">
+          Senha
+        </label>
+
+        <input
+          type="password"
+          id="senha"
+          placeholder="Digite sua senha"
+          autocomplete="current-password"
+          required
+        />
+
+      </div>
+
+      <button
+        type="submit"
+        class="login-btn"
+        id="loginBtn"
+      >
+        Entrar
+      </button>
+
+      <p
+        class="error"
+        id="errorMsg"
+      >
+        Usuário ou senha incorretos.
+      </p>
+
+      <p
+        class="success"
+        id="successMsg"
+      >
+        Login realizado com sucesso!
+      </p>
+
+    </form>
+
+    <a
+      href="#"
+      class="forgot-password"
+    >
+      Esqueci minha senha
+    </a>
+
+  </div>
+
+  <!-- JAVASCRIPT -->
+  <script src="./js/login.js"></script>
+
+</body>
+
+</html>
